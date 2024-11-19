@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-// Correct font paths
+// Correct paths to fonts in the public folder
 const geistSans = localFont({
-  src: "/fonts/GeistVF.woff",  // Corrected path
+  src: "/fonts/GeistVF.woff",  // Correct path to the public folder
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 
 const geistMono = localFont({
-  src: "/fonts/GeistMonoVF.woff",  // Corrected path
+  src: "/fonts/GeistMonoVF.woff",  // Correct path to the public folder
   variable: "--font-geist-mono",
   weight: "100 900",
 });
