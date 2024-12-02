@@ -31,11 +31,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header style={{ padding: "15px", background: "#f5f5f5" }}>
+        <header style={{ padding: "15px", background: "#008000" }}>
           <h1>Cabeçalho da aplicação</h1>
         </header>
         <main>{children}</main>
-        <footer style={{ padding: "15px", background: "#f5f5f5" }}>
+        <footer style={{ padding: "15px", background: "#008000" }}>
           <p>Rodapé da aplicação</p>
         </footer>
       </body>

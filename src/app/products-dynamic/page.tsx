@@ -12,9 +12,15 @@ export default function Products() {
 
     return (
         <div>
-            <Link href={'/products-dynamic/${id}'}>Produto 1</Link>
-            <Link href={'/products-dynamic/2'}>Produto 2</Link>
-            <Link href={'/products-dynamic/3'} replace>Produto 3</Link>
+            <div>
+             <Link href={'/products-dynamic/${id}'}>Produto 1</Link>
+            </div>
+            <div>
+             <Link href={'/products-dynamic/2'}>Produto 2</Link>
+            </div>
+            <div>
+             <Link href={'/products-dynamic/3'} replace>Produto 3</Link>
+            </div>
         </div>
     )
 }
