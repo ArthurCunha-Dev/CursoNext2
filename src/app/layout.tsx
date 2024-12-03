@@ -6,13 +6,13 @@ import "./globals.css";
 const geistSans = localFont({
   src: "/fonts/GeistVF.woff",  // Caminho correto para a pasta public
   variable: "--font-geist-sans",
-  weight: "200 800",
+  weight: "1000 1000",
 });
 
 const geistMono = localFont({
   src: "/fonts/GeistMonoVF.woff",  // Caminho correto para a pasta public
   variable: "--font-geist-mono",
-  weight: "200 800",
+  weight: "1000 1000",
 });
 
 export const metadata: Metadata = {
@@ -31,11 +31,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header style={{ padding: "15px", background: "#008000" }}>
+        <header style={{ padding: "10px", background: "#008000" }}>
           <h1>Cabeçalho da aplicação</h1>
         </header>
         <main>{children}</main>
-        <footer style={{ padding: "15px", background: "#008000" }}>
+        <footer style={{ padding: "10px", background: "#008000" }}>
           <p>Rodapé da aplicação</p>
         </footer>
       </body>
